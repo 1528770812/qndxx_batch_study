@@ -36,4 +36,4 @@ jobs:
         env:
           USERNUM: ${{ secrets.usernum }}
         run: |
-          python report.py "$USERNUM" -p
+          python main.py "$USERNUM" -p
