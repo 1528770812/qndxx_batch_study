@@ -80,7 +80,7 @@ if __name__ == "__main__":
     parser = ArgumentParser(description='青年大学习')
     parser.add_argument('usernum', help='用户ID')
     arguments = parser.parse_args()
-    print('666')
+    print(arguments.usernum)
 
 #     try:
 #         cid = getChapterId()
