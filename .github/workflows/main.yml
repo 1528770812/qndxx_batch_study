@@ -21,4 +21,5 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install urllib3
+          pip install requests
 
