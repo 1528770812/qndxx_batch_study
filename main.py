@@ -80,18 +80,19 @@ if __name__ == "__main__":
     parser = ArgumentParser(description='青年大学习')
     parser.add_argument('usernum', help='用户ID')
     arguments = parser.parse_args()
+    print('666')
 
-    try:
-        cid = getChapterId()
-        sign = getSign(arguments)
-        token = getToken(sign)
-        res = saveHistory(token, cid)
-    except:
-        print("异常")
+#     try:
+#         cid = getChapterId()
+#         sign = getSign(arguments)
+#         token = getToken(sign)
+#         res = saveHistory(token, cid)
+#     except:
+#         print("异常")
 
-    if res["errno"] == 0:
-        print("保存观看记录成功")
-    else:
-        print("出错啦")
-        print(res["errmsg"])
+#     if res["errno"] == 0:
+#         print("保存观看记录成功")
+#     else:
+#         print("出错啦")
+#         print(res["errmsg"])
 
