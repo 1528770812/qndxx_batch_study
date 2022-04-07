@@ -11,4 +11,4 @@
    | USERID | 第1步获得的xxxxxx |
 4. 开启 GitHub Actions <sup>[如何开启？](./how-to-enable-actions/#启用-Actions)</sup>
 5. 验证工作流能否运行成功：点击`Run workflow`，运行成功后在青年大学习页面查看学习记录
-6. 每三天早上 7:00 <sup>23:00 UTC</sup> 定时自动运行
+6. 该脚本每三天会在早上 7:00 <sup>23:00 UTC</sup> 定时自动运行
